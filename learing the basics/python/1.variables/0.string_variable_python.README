@@ -1,0 +1,24 @@
+string variable modifications
+
+===variable===
+message = "text1"
+message2 = "text2"
+
+===string capitolization===
+
+message.title()		#capitolizes first letter of each word
+message.upper()		#capitolizes all letters
+message.lower()		#lower cases all letters
+
+===string concatenation & altering===
+
+message3 = message + "extra text"
+message3 = message + message2
+message3 = f"{message} and {message2}"
+message3 = "\t{} and \n{}".format(message, message2)
+
+===whitespace removal===
+
+message.rstrip()	#removes right whitespace
+message.lstrip()	#removes left whitespace
+message.strip()		#removes left/right whitespace
