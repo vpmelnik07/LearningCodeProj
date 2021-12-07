@@ -34,3 +34,13 @@ new_message = f"\t{string_1}\n\t{string_2}"
 print(new_message)
 
 #stripping the whitespace from the new message
+strip_whitespace_message = " python "
+
+#removes whitespace from the right side of the message
+print(strip_whitespace_message.rstrip())
+
+#removes whiespace from the left side of the message
+print(strip_whitespace_message.lstrip())
+
+#removes all whitespace, before and after the message
+print(strip_whitespace_message.strip())
