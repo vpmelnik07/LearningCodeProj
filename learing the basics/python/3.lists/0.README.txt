@@ -1,0 +1,26 @@
+empty_list = []		#initilizing an empty list
+
+list = ['first_item', 'second_item', 'third_item']		#initializing a list with values
+
+print(list[0])		#printing the 1st element in the list
+
+print(list[-1])		#negative indexing starts from -1 not 0. prints the last element in the array
+
+#modifying existing lists
+list[0] = 'new_value'		#changing the first indexed item to a new value
+
+#adding new elements to an existing list via append
+list.append('extra_item')	#adds to the end of the list
+
+#inserting to specific index locations
+list.insert(0,'stuff')		#adds to the index specified to in the list
+
+#deleting an element from the list
+del list[-1]		#deletes the last item from the list
+
+#pop an item from the list removes the last element but we can assign it to another variable
+last_element_from_list = list.pop()		#last element removed from list and assigned to a new var
+
+#pop based on element index
+popped_first = list.pop(0)		#pops the 1st element in the list
+
