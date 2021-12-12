@@ -39,26 +39,26 @@ for num in range(1,10):
 
 print(squares)
 
-#iterating with range through a list of unknown size
-#index_num is the iterated num 0 -> length of list
-#len(squares) is the total number of entries within the list
+# iterating with range through a list of unknown size
+# index_num is the iterated num 0 -> length of list
+# len(squares) is the total number of entries within the list
 for index_num in range(0,len(squares)):
-	print(squares[index_num])	#prints the value of the indexed entry
+	print(squares[index_num])  # prints the value of the indexed entry
 
-#simple statistics with number lists
+# simple statistics with number lists
 print(min(squares))
 
 print(max(squares))
 
 print(sum(squares))
 
-#list comprehension, creating list by iterative value in a single line
-#"value ** 2" is the iterative contents of the for loop above
-#for loop created to loop on range values, results are stored within the list brackets "[]"
+# list comprehension, creating list by iterative value in a single line
+# "value ** 2" is the iterative contents of the for loop above
+# for loop created to loop on range values, results are stored within the list brackets "[]"
 new_squares = [value ** 2 for value in range(1,10)]
 print(new_squares)
 
-#create a new list of all capital words of colors list
+# create a new list of all capital words of colors list
 new_colors = [colors[index].upper() for index in range(0,len(colors))]
 print(new_colors)
 
