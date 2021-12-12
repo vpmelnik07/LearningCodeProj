@@ -24,3 +24,14 @@ last_element_from_list = list.pop()		#last element removed from list and assigne
 #pop based on element index
 popped_first = list.pop(0)		#pops the 1st element in the list
 
+#foods.remove('second_item')	#removes the element based off it's name
+
+new_list.sort()			#permenenantly sorts a list a -> z
+
+new_list.sort(reverse=True)		#permenantly sorts a list x -> a
+
+print(sorted(new_list))		#temporarily sorts a list a -> z
+print(sorted(new_list, reverse=True))	#temporarily sorts a list z -> a
+
+new_list.reverse()	#reverses the list permenantly
+print(new_list)		#printed reversed list

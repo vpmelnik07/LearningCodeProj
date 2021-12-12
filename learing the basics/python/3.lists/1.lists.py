@@ -44,3 +44,39 @@ print(foods)
 first_item_popped = foods.pop(0)
 print (f"removed this item too: {first_item_popped}\n{foods}")
 
+#remove an element by it's value
+foods.remove('ice cream')
+print(foods)
+
+#section will deal with organizing a list
+cars = ['bmw','mercedes','honda','ford','lexus']
+print(cars)
+
+#sorting a list permenantly based by it's value
+cars.sort()
+print(cars)
+
+#sorts the list in reverse order permenantly
+cars.sort(reverse=True)
+print(cars)
+
+#temporarily sorts a list. maintains the original ordering
+cars = ['bmw','mercedes','honda','ford','lexus']
+print(cars)
+print(sorted(cars))
+print(cars)
+
+#a temporarily sorted list can be assigned to another var list
+ordered_cars = sorted(cars)
+print(ordered_cars)
+
+#temporarily sorts list, saved to another var in reverse order
+ordered_cars = sorted(cars, reverse=True)
+print(ordered_cars)
+
+#reversing the order of a list without sorting
+cars.reverse()
+print(cars)
+
+length_of_list = len(cars)
+print(length_of_list)
