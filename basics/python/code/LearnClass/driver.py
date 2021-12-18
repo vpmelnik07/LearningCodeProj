@@ -1,4 +1,4 @@
-from .learing the basics.python.code.LearnClass import LIFO_queue
+from LIFO_queue import *
 
 can = LIFO_queue()
 can.addValue(7)
