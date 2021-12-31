@@ -1,7 +1,7 @@
 class LIFO_queue:
     def __init__(self):
         self.stackCan = []
-        print("setting up the constructor")
+        print("Gearing up for LIFO queue control!")
 
     def addValue(self, element):
         self.stackCan.append(element)
